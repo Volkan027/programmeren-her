@@ -1,0 +1,63 @@
+#spel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('images/battlebg.png'); /* https://displays.riotgames.com/en-gb/*/
+}
+
+.afbeelding-en-knop-container {
+    display: flex;
+    flex-direction: column; /* Plaats de afbeelding en knop boven elkaar */
+    align-items: center; /* Center de inhoud horizontaal */
+    /* hulp van chatgpt*/
+}
+
+.afbeelding-en-knop-container img {
+    max-width: 500px;
+}
+
+#afbeelding1-container {
+    margin-right: auto; /* Duw de eerste container helemaal naar links */
+}
+
+#afbeelding2-container {
+    margin-left: auto; /* Duw de tweede container helemaal naar rechts */
+}
+
+#optie {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /*hulp van chatgpt*/
+}
+
+.health {
+    position: absolute;
+    bottom: 230px; /* Positie Ietsje hoger*/
+    right: 150px; /* Positie meer naar links*/
+    display: flex; /* Zet de potions naast elkaar*/
+}
+
+.hp {
+    max-width: 50px; /* Past de maximale breedte aan */
+    margin-right: 5px; /* Voegt wat ruimte toe tussen potions*/
+}
+
+#optie {
+    font-size: 70px;
+}
+
+.projectile {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-image: url('images/vuurbal.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+   /* hulp van chatgpt */
